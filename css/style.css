@@ -120,6 +120,7 @@ textarea {
     margin: 20px 0;
     font-weight: 500;
     font-size: 1.125em;
+    margin: 20px 0;
   }
 
   p {
@@ -138,6 +139,13 @@ textarea {
     margin: 50px 0;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
 /* -----------------Base Header - Footer Styles------------------------------- */
 
   header {
