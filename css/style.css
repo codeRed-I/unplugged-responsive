@@ -162,6 +162,10 @@ figure {
     margin: 0;
   }
 
+  header figure {
+    width: 60%;
+  }
+
   .header-divider {
     background: #3a3a3a;
     width: 100%;
@@ -285,6 +289,7 @@ figure {
   .features {
     background: url('../img/unplugged-retreat-features.jpg');
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
   }
@@ -525,6 +530,10 @@ figure {
 
   /*  Hero Area */
 
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -572,6 +581,7 @@ figure {
     width: 85%;
   } 
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -622,6 +632,10 @@ figure {
 
   .mission-content p {
    width: 45%;
+  }
+
+  .map-figure {
+    padding-bottom: 56.25%;
   }
 
  .contact-section .content-wrapper h2 {
@@ -728,6 +742,10 @@ figure {
   }
 
    /********About Page **********/
+   .map figure {
+    padding-bottom: 37.5%;
+   }
+   
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
