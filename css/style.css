@@ -117,7 +117,6 @@ textarea {
   h3, 
   h4 {
     font-family: 'Poppins', sans-serif;
-    margin: 20px 0;
     font-weight: 500;
     font-size: 1.125em;
     margin: 20px 0;
@@ -126,6 +125,14 @@ textarea {
   p {
     font-size: .875em;
     line-height: 1.285;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  figure {
+    margin: 0;
   }
 
   address {
@@ -138,13 +145,7 @@ textarea {
     margin: 50px 0;
 }
 
-img {
-  width: 100%;
-}
 
-figure {
-  margin: 0;
-}
 /* -----------------Base Header - Footer Styles------------------------------- */
 
   header {
@@ -313,6 +314,11 @@ figure {
   .features p {
     text-align: center;
     margin: 0;
+  }
+
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
   }
 
    /* Reviews */
@@ -745,7 +751,7 @@ figure {
    .map figure {
     padding-bottom: 37.5%;
    }
-   
+
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
